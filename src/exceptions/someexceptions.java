@@ -19,6 +19,8 @@ public class someexceptions {
 	
 	
 	
+	
+	
 
 	public static void main(String[] args) {
 		
@@ -38,7 +40,7 @@ public class someexceptions {
 		}
 		
 		
-		
+		System.out.println("this will run after the exception ");
 		
 		
 		
