@@ -10,22 +10,11 @@ public class someexceptions {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	public static void main(String[] args) {
 		
 		
-		
+		// ArithmeticException exception
 		try 
 		{
 			dividebyzero();
@@ -40,12 +29,24 @@ public class someexceptions {
 		}
 		
 		
-		System.out.println("this will run after the exception ");
+		
+		
+		//class not found exception
+		try 
+		{
+			Class.forName("FindMissingClass");
+		}
+		catch(ClassNotFoundException ex)
+		{
+			ex.printStackTrace();
+			
+		}
 		
 		
 		
 		
 		
+		System.out.println(" this will run after the exception ");
 		
 		
 
